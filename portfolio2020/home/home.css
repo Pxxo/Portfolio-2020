@@ -1,0 +1,429 @@
+/* 全体共通(∞px) */
+body{
+    background-color: rgb(245, 245, 245);
+    margin: 0;
+    padding: 0;
+}
+/* marginBox */
+.marginBox01{
+    height: 2rem;
+    width: 100%;
+}
+.marginBox02{
+    height: 3rem;
+    width: 100%;
+}
+.marginBox03{
+    height: 1rem;
+    width: 100%;
+}
+/* marginbox */
+
+/* toppage */
+    .toppage{
+        margin-top: 10%;
+        margin-left: 7%;
+    }
+    .nameTitle01{
+        color: #ff7729;
+        font-family: lemon_font;
+        font-size: 5rem;
+        position: absolute;
+        top: 0;
+        transition: 0.2s;
+    }
+    .nameTitle02{
+        position: relative;
+        color: #3E3E3E;
+        font-family: lemon_font;
+        font-size: 10rem;
+        transition: 0.2s;
+    }
+    .nameTitle01:hover{
+        text-shadow: #ff7829b2 10px 10px;
+    }
+    .nameTitle02:hover{
+        text-shadow:  #3e3e3e79 20px 20px;
+    }
+/* toppage */
+
+/* aboutme */
+    .subTitle01{
+        margin-left: 37.5%;
+        width: 25%;
+        text-align: center;
+        color: #3E3E3E;
+        font-family: lemon_font;
+        font-size: 50px;
+        border-top: #3E3E3E solid 1px;
+        border-bottom: #3E3E3E solid 1px;
+    }
+    .contents01{
+        margin-top: 5%;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+    .contents02{
+        font-family: sans-serif;
+        color: #3E3E3E;
+        font-size: 0.9rem;
+    }
+    .jump01{
+        text-decoration: none;
+        font-weight: 900;
+        font-family: lemon_font;
+        color: #3E3E3E;
+    }
+/* aboutme */
+
+/* language */
+    .boxGroup01{
+        text-align: center;
+    }
+    .box01{
+        height: 9rem;
+        width: 10rem;
+        display: inline-block;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .boxGroup02{
+        text-align: center;
+    }
+    .box02{
+        height: 9rem;
+        width: 10rem;
+        display: inline-block;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .language01{
+        font-family: lemon_font;
+        margin-top: 50%;
+        transform: translateY(-55%);
+        font-size: 1.5rem;
+        color: #e86027;
+    }
+    .language02{
+        font-family: lemon_font;
+        margin-top: 50%;
+        transform: translateY(-55%);
+        font-size: 1.5rem;
+        color: #2866F0;
+    }
+    .language03{
+        font-family: lemon_font;
+        margin-top: 50%;
+        transform: translateY(-55%);
+        font-size: 1.5rem;
+        color: #f1bf20;
+    }
+    .language04{
+        font-family: lemon_font;
+        margin-top: 50%;
+        transform: translateY(-55%);
+        font-size: 1.5rem;
+        color: #9aa0c6;
+    }
+    .language05{
+        font-family: lemon_font;
+        margin-top: 50%;
+        transform: translateY(-55%);
+        font-size: 1.5rem;
+        color: #3d3d3d;
+    }
+    .language06{
+        font-family: lemon_font;
+        margin-top: 50%;
+        transform: translateY(-55%);
+        font-size: 1.5rem;
+        color: #3d3d3d;
+    }
+/* language */
+
+/* plans */
+    .plans{
+        text-align: center;
+    }
+    .price_group01{
+        font-family: lemon_font;
+        width: 18.75rem;
+        text-align: center;
+    }
+    .price_group02{
+        font-family: lemon_font;
+        width: 18.75rem;
+        text-align: center;
+        margin-left: 1.875em;
+        margin-right: 1.875em;
+    }
+    .price_group03{
+        font-family: lemon_font;
+        width: 18.75rem;
+        text-align: center;
+    }
+    .pricetitle01{
+        color: green;
+        font-size: 1.875em;
+    }
+    .pricetitle02{
+        color: rgb(224, 224, 0);
+        font-size: 1.875em;
+    }
+    .pricetitle03{
+        color: tomato;
+        font-size: 1.875em;
+    }
+    .price01{
+        font-size: 1.675em;
+    }
+    .price02{
+        font-size: 1.675em;
+    }
+    .price03{
+        font-size: 1.675em;
+    }
+    #inline{
+        display: inline-block;
+    }
+    .line{
+        height: 1px;
+        width: 18.75rem;
+        background-color: #3e3e3e;
+    }
+    .watchout01{
+        color: #3e3e3e;
+        font-size: 1.125rem;
+    }
+    .watchout02{
+        color: #3e3e3e;
+        font-size: 1.125rem;
+        margin-top: 6.25rem;
+    }
+/* plans */
+
+/* contact */
+    .center01{
+        text-align: center;
+    }
+    .mail{
+        margin-top: 50px;
+        transition: 0.5s;
+        background-color: #3E3E3E;
+        border: none;
+        outline: none;
+        width: 30%;
+        height: 25px;
+        color:  rgb(245, 245, 245);
+        border-radius: 8px;
+        font-size: 17px;
+        padding: 10px;
+        opacity: 0.7;
+    }
+    .contents03{
+        transition: 0.5s;
+        background-color: #3E3E3E;
+        border: none;
+        outline: none;
+        width: 30%;
+        height: 300px;
+        color:  rgb(245, 245, 245);
+        border-radius: 8px;
+        font-size: 15px;
+        padding: 10px;
+        opacity: 0.7;
+    }
+    .mail:hover{
+        opacity: 0.9;
+    }
+    .contents03:hover{
+        opacity: 0.9;
+    }
+    .button01:hover{
+        box-shadow: none;
+        background-color: #005ec2;
+        cursor: pointer;
+    }
+    .button01{
+        margin-top: 20px;
+        transition: 0.2s;
+        background-color: #007BFF;
+        border: none;
+        outline: none;
+        width: 20%;
+        height: 45px;
+        color:  rgb(245, 245, 245);
+        border-radius: 8px;
+        font-size: 20px;
+        padding: 10px;
+        margin-bottom: 200px;
+        box-shadow: #0057b4 5px 5px;
+    }
+/* contact */
+
+
+/* 1440px以上 */
+@media screen and (max-width:1300px){
+    .subTitle01{
+        font-size: 40px;
+    }
+    .nameTitle01{
+        color: #ff7729;
+        font-family: lemon_font;
+        font-size: 60px;
+        position: absolute;
+        transition: 0.2s;
+    }
+    .nameTitle02{
+        position: relative;
+        color: #3E3E3E;
+        font-family: lemon_font;
+        font-size: 140px;
+        transition: 0.2s;
+    }
+}
+
+/* 900px以上*/
+@media screen and (max-width:900px){
+    .nameTitle01{
+        font-size: 50px;
+        top: 0px;
+    }
+    .nameTitle02{
+        font-size: 130px;
+    }
+    .subTitle01{
+        margin-left: 30%;
+        width: 40%;
+    }
+    .mail{
+        width: 50%;
+        height: 25px;
+    }
+    .contents03{
+        width: 50%;
+        height: 300px;
+    }
+    .button01{
+        width: 52%;
+        height: 45px;
+    }
+    .contents01{
+        margin-top: 5%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+/* 700px以上 */
+@media screen and (max-width:700px){
+    .nameTitle01{
+        font-size: 40px;
+    }
+    .nameTitle02{
+        font-size: 120px;
+    }
+}
+/* 610以下 */
+@media screen and (max-width:610px){
+    .subTitle01{
+        margin-left: 25%;
+        width: 50%;
+    }
+    .nameTitle01{
+        font-size: 40px;
+    }
+    .nameTitle02{
+        font-size: 90px;
+    }
+}
+/* 420px以下 */
+@media screen and (max-width:610px){
+    .subTitle01{
+        margin-left: 20%;
+        width: 60%;
+    }
+    .nameTitle01{
+        margin-left: 20px;
+        font-size: 30px;
+    }
+    .nameTitle02{
+        margin-left: 20px;
+        font-size: 70px;
+    }
+    .language01{
+        margin-top: 25%;
+        transform: translateY(-25%);
+    }
+    .language02{
+        margin-top: 25%;
+        transform: translateY(-25%);
+    }
+    .language03{
+        margin-top: 25%;
+        transform: translateY(-25%);
+    }
+    .language04{
+        margin-top: 25%;
+        transform: translateY(-25%);
+    }
+    .language05{
+        margin-top: 25%;
+        transform: translateY(-25%);
+    }
+    .language06{
+        margin-top: 25%;
+        transform: translateY(-25%);
+    }
+    .box01{
+        height: 4rem;
+    }
+    .box02{
+        height: 4rem;
+    }
+    .mail{
+        width: 70%;
+        height: 25px;
+    }
+    .contents03{
+        width: 70%;
+        height: 300px;
+    }
+    .button01{
+        width: 72%;
+        height: 45px;
+    }
+}
+/* 320以下 */
+@media screen and (max-width:610px){
+    .subTitle01{
+        margin-left: 15%;
+        width: 70%;
+        font-size: 35px;
+    }
+    .nameTitle01{
+        margin-left: 20px;
+        font-size: 30px;
+    }
+    .nameTitle02{
+        margin-left: 20px;
+        font-size: 60px;
+    }
+    .line{
+        height: 1px;
+        width: 18.75rem;
+        background-color: #3e3e3e;
+    }
+}
+/* Font読み込み */
+@font-face {
+	font-family: 'lemon_font';
+	src: url(../font/lemon.otf);
+}
+@font-face {
+	font-family: 'cokkie_font';
+	src: url(../font/cokkie.otf);
+}
+@font-face {
+	font-family: 'kanji_font';
+	src: url(../font/kanji.ttf);
+}
